@@ -10,5 +10,5 @@ $members['scrum master'] = new ScrumMaster();
 $projectManagement = new ProjectManagement();
 
 foreach ($members as $title => $member) {
-    echo $title . ": " . $projectManagement->process($member) . "\n";
+    echo $title . ": " . $projectManagement->process($member) . PHP_EOL;
 }

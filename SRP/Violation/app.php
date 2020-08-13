@@ -7,4 +7,4 @@ include "Comment.php";
 $comment = new Comment("Lorem ipsum");
 $json = $comment->formatJson();
 
-echo "json: " . $json . "\n";
+echo "json: " . $json . PHP_EOL;

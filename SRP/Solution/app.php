@@ -9,4 +9,4 @@ $comment = new Comment("Lorem ipsum");
 $jsonFormatter = new JsonFormatter();
 $json = $jsonFormatter->format($comment);
 
-echo "json: " . $json . "\n";
+echo "json: " . $json . PHP_EOL;

@@ -8,5 +8,5 @@ $programmer = new Programmer();
 $tester = new Tester();
 $projectManagement = new ProjectManagement();
 
-echo "programmer: " . $projectManagement->process($programmer) . "\n";
-echo "tester: " . $projectManagement->process($tester) . "\n";
+echo "programmer: " . $projectManagement->process($programmer) . PHP_EOL;
+echo "tester: " . $projectManagement->process($tester) . PHP_EOL;

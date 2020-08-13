@@ -11,8 +11,8 @@ $tester = new Tester();
 $projectManagement = new ProjectManagement();
 
 try {
-    echo "programmer: " . $projectManagement->process($programmer) . "\n";
-    echo "tester: " . $projectManagement->process($tester) . "\n";
+    echo "programmer: " . $projectManagement->process($programmer) . PHP_EOL;
+    echo "tester: " . $projectManagement->process($tester) . PHP_EOL;
 } catch (Exception $e) {
-    echo "error: " . $e->getMessage() . "\n";
+    echo "error: " . $e->getMessage() . PHP_EOL;
 }

@@ -16,6 +16,6 @@ $book->setUri("https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship
 $jsonFormatter = new JsonFormatter();
 $xmlFormatter = new XmlFormatter();
 
-echo "comment json: " . $jsonFormatter->format($comment) . "\n";
-echo "comment xml: " . $xmlFormatter->format($comment) . "\n";
-echo "book json: " . $jsonFormatter->format($book) . "\n";
+echo "comment json: " . $jsonFormatter->format($comment) . PHP_EOL;
+echo "comment xml: " . $xmlFormatter->format($comment) . PHP_EOL;
+echo "book json: " . $jsonFormatter->format($book) . PHP_EOL;
