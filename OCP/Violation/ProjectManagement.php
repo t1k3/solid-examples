@@ -16,4 +16,17 @@ class ProjectManagement
             throw new Exception('Invalid member');
         }
     }
+
+    public function processOtherSolution($member): string
+    {
+        $class = get_class($member);
+        switch ($class) {
+            case Programmer::class:
+                return $member->coding();
+            case Tester::class:
+                return $member->testing();
+            default:
+                throw new Exception('Invalid member');
+        }
+    }
 }
