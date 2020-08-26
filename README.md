@@ -18,6 +18,6 @@ One should "depend upon abstractions, not concretions."
 ### How to use
 Example:
 ```bash
-$ docker run -it --rm -v $PWD:/app -w /app php:7.4-cli bash
+$ docker run -it --rm -v $PWD/src:/app -w /app php:7.4-cli bash
 $ php SRP/Violation/app.php
 ```
