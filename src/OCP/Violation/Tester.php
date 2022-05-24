@@ -6,6 +6,6 @@ class Tester
 {
     public function testing(): string
     {
-        return "testing";
+        return 'testing';
     }
 }

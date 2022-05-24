@@ -30,8 +30,8 @@ class Comment
     public function getContents(): array
     {
         return [
-            "comment" => $this->getComment(),
-            "createdAt" => $this->getCreatedAt(),
+            'comment' => $this->getComment(),
+            'createdAt' => $this->getCreatedAt(),
         ];
     }
 }

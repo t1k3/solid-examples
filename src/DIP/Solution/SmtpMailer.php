@@ -6,7 +6,7 @@ class SmtpMailer implements IMailer
 {
     public function send(): string
     {
-        return "The email has been sent";
+        return 'The email has been sent';
     }
 }
 

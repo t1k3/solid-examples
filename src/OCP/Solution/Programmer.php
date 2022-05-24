@@ -6,7 +6,7 @@ class Programmer implements IMember
 {
     public function work(): string
     {
-        return "coding";
+        return 'coding';
     }
 }
 

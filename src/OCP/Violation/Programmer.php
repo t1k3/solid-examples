@@ -6,6 +6,6 @@ class Programmer
 {
     public function coding(): string
     {
-        return "coding";
+        return 'coding';
     }
 }

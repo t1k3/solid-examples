@@ -11,6 +11,6 @@ class Camera1 implements ICamera
 
     public function takePhoto(): string
     {
-        return "Photo was taken with a lot of noise.";
+        return 'Photo was taken with a lot of noise.';
     }
 }

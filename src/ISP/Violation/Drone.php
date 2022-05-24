@@ -20,12 +20,12 @@ class Drone extends Vehicle
 
     public function turnOnRadio(): void
     {
-        throw new Exception("Oops, Something Went Wrong: I can't turn on the radio.");
+        throw new Exception('Oops, Something Went Wrong: I can't turn on the radio.');
     }
 
     public function turnOffRadio(): void
     {
-        throw new Exception("Oops, Something Went Wrong: I can't turn off the radio.");
+        throw new Exception('Oops, Something Went Wrong: I can't turn off the radio.');
     }
 }
 

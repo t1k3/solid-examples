@@ -11,6 +11,6 @@ class Camera2 implements ICamera
 
     public function takePhoto(): string
     {
-        return "Nice photo was taken, applied some filters.";
+        return 'Nice photo was taken, applied some filters.';
     }
 }

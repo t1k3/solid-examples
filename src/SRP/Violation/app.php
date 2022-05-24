@@ -2,9 +2,9 @@
 
 namespace T1k3\SolidExamples\SRP\Violation;
 
-include "Comment.php";
+include 'Comment.php';
 
-$comment = new Comment("Lorem ipsum");
+$comment = new Comment('Lorem ipsum');
 $json = $comment->formatJson();
 
-echo "json: " . $json . PHP_EOL;
+echo 'json: ' . $json . PHP_EOL;

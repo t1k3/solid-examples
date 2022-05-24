@@ -6,7 +6,7 @@ class ScrumMaster implements IMember
 {
     public function work(): string
     {
-        return "managing";
+        return 'managing';
     }
 }
 

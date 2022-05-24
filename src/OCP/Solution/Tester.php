@@ -6,7 +6,7 @@ class Tester implements IMember
 {
     public function work(): string
     {
-        return "testing";
+        return 'testing';
     }
 }
 

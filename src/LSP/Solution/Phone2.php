@@ -15,7 +15,7 @@ class Phone2 extends Phone
     public function setCamera(ICamera $camera): void
     {
         if ($camera->getVersion() < 2) {
-            throw new Exception("The camera version is not supported.");
+            throw new Exception('The camera version is not supported.');
         }
 
         $this->camera = $camera;

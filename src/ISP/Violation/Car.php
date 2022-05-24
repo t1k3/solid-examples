@@ -20,12 +20,12 @@ class Car extends Vehicle
 
     public function turnOnCamera(): void
     {
-        throw new Exception("Oops, Something Went Wrong: I can't turn on the camera.");
+        throw new Exception('Oops, Something Went Wrong: I can't turn on the camera.');
     }
 
     public function turnOffCamera(): void
     {
-        throw new Exception("Oops, Something Went Wrong: I can't turn off the camera.");
+        throw new Exception('Oops, Something Went Wrong: I can't turn off the camera.');
     }
 }
 
